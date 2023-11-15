@@ -1,0 +1,29 @@
+.info__wrapper {
+    width: 100%;
+    height: calc(100vh - 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alertBlue {
+    max-width: 796px;
+    width: 100%;
+    padding: 16px;
+    background: #28323f;
+    border: solid 2px #556787;
+    border-radius: 8px;
+}
+
+.alert__title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.alert__content {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 12px;
+}

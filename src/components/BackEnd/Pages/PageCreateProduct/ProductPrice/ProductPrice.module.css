@@ -1,0 +1,26 @@
+.priceInput__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.priceInput__wrapper input {
+    border-radius: 0 4px 4px 0;
+}
+
+.currency {
+    padding: 8px;
+    color: #5a5a5a;
+    font-size: 13px;
+    font-weight: 600;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border: solid 1px #c1c1c1;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    height: 40px;
+}

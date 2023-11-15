@@ -1,0 +1,45 @@
+:root {
+  --font: 'Roboto', sans-serif;
+  
+  --color-white: #fff;
+  --color-softGray: #e3e3e3;
+  --color-gray: #b9b9b9;
+  --color-black: #1e1e1e;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font);
+}
+
+.BackEndMain {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 96px;
+  padding-left: 262px;
+  padding-right: 32px;
+  padding-bottom: 32px;
+}
+
+.backendWrapperFull {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.backendWrapper-md {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 24px;
+}
+
+.defaultItemContainer {
+  padding: 24px 0;
+  border: solid 1px #e1e1e1;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 7px 2px #d9d8d8;
+}
