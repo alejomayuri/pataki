@@ -40,7 +40,9 @@ const BackEndLayout = ({ children }) => {
                 <div>
                     <MainMenu />
                     <main className='BackEndMain'>
-                        {children}
+                        <div>
+                            {children}
+                        </div>
                     </main>
                 </div>
             </>
