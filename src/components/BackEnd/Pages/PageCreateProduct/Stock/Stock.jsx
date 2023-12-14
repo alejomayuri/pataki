@@ -9,7 +9,6 @@ const Stock = ({ onChange, initialStock, initialSaleWithoutStock }) => {
     const handleStockChange = (e) => {
         setStockState(e.target.value)
         onChange(e)
-        console.log(e.target.type)
     }
 
     const handleSaleWithoutStockChange = (e) => {
